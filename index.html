@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--Al momento de realizar la implementacion de Bootstrap, en primer lugar se debe implementar JQuery-->
+	<!--Implementación de JQuery-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<!--Implementación de Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!--Implementación de Bootstrap JS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<!--Implementación de Ajax-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--Implementación de Popper.js-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<!--Implementación de FontAwesome-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>COVID-19</title>
+</head>
+<body>
+	<!--Header-->
+	<div>
+		<a class="logo" href="index.html"><img src="https://hubpng.com/public/uploads/preview/covid-19-background-corona-virus-png-11585236771usnetem49o.png" width="15%">COVID-19</a>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+	        	</ul>
+	        	<div class="form-inline">
+	          		<a href="#" class="btn btn-info" id="home">Home</a>
+	        	</div>
+	        	<div class="form-inline">
+	          		<a href="index.html#ques" class="btn btn-info">Que es</a>
+	        	</div>
+	        	<div class="form-inline">
+	          		<a href="index.html#sinto" class="btn btn-info">Síntomas</a>
+	        	</div>
+	        	<div class="form-inline">
+	          		<a href="index.html#cuida" class="btn btn-info">Cuidados</a>
+	        	</div>
+	        	<div class="form-inline">
+	          		<a href="index.html#polombia" class="btn btn-info">Colombia</a>
+	        	</div>
+	    	</div>
+	    </div>
+	</nav>
+	<div id="contenedor">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<h1 id="ques">Que es el COVID-19</h1>
+				<p>La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID-19 es una pandemia que afecta a muchos países de todo el mundo.</p>
+				<a href="https://coronavirus.app/map" class="btn btn-info" target="_blank" id="bot">Ver mas</a>
+			</div>
+		  	<div class="col-xs-12 col-sm-6">
+				<picture>
+					<img src="https://www.sociedadcirugiaocular.com/images/img-coronavirus-covid19.jpg" width="100%">
+				</picture>
+				<i><span>Que es el Covid 19</span></i>
+			</div>
+		  	<div class="col-xs-12 col-sm-6">
+		  		<picture>
+		  			<img src="https://www.65ymas.com/uploads/s1/41/61/97/bigstock-lung-virus-infection-and-coron-350084953.jpeg" width="100%">
+		  			<i><span>Síntomas del coronavirus</span></i>
+		  		</picture>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-6">
+		  		<h1 id="sinto">Cuales son los síntomas</h1>
+				<p>Los síntomas más habituales de la COVID-19 son la fiebre, la tos seca y el cansancio. Otros síntomas menos frecuentes que afectan a algunos pacientes son los dolores y molestias, la congestión nasal, el dolor de cabeza, la conjuntivitis, el dolor de garganta, la diarrea, la pérdida del gusto o el olfato y las erupciones cutáneas o cambios de color en los dedos de las manos o los pies. Estos síntomas suelen ser leves y comienzan gradualmente. Algunas de las personas infectadas solo presentan síntomas levísimos.</p>
+				<a href="https://coronavirus.app/map" class="btn btn-info" target="_blank" id="bot">Ver mas</a>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-6">
+		  		<h1 id="cuida">Como nos podemos cuidar</h1>
+		  		<p>Practicar la higiene respiratoria y de las manos es importante en TODO momento y la mejor forma de protegerse. Cuando sea posible, mantenga al menos un metro de distancia entre usted y los demás. Esto es especialmente importante si está al lado de alguien que esté tosiendo o estornudando. Dado que es posible que algunas personas infectadas aún no presenten síntomas o que sus síntomas sean leves, conviene que mantenga una distancia física con todas las personas.</p>
+		  		<a href="https://coronavirus.app/map" class="btn btn-info" target="_blank" id="bot">Ver mas</a>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-6">
+		  		<picture>
+		  			<img src="https://www.mysanitas.com/sites/default/files/articles/img-blog-coronavirus_0.jpg" width="100%">
+		  			<i><span>Como nos podemos cuidar</span></i>
+		  		</picture>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-6">
+		  		<picture>
+		  			<img src="https://coronaviruscolombia.gov.co/Covid19/images/comportamientoCovid/bannerCifrasMobile.png" width="100%">
+		  			<i><span>Comportamiento en Colombia</span></i>
+		  		</picture>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-6">
+		  		<h1 id="polombia">COVID-19 en Colombia</h1>
+		  		<p>El Ministerio de Salud informó que en el país hay 67.114 casos activos de coronavirus, de los que 7.106 son nuevos. Además, hubo 132 fallecidos, siendo 123 de días anteriores. En las últimas 24 horas se procesaron 35.973 pruebas, de las que 23.561 son PCR y 12.142 son de antígenos. 862.158 casos se han confirmado en el país, de esos 766.300 se han recuperado y 26.844 han muerto.</p>
+		  		<a href="#" class="btn btn-info" id="casos">Casos</a>
+		  		<a href="https://coronaviruscolombia.gov.co/Covid19/estadisticas-covid-19/comportamiento-covid-19.html" class="btn btn-info" target="_blank" id="bot">Ver mas</a>
+		  	</div>
+	  	</div>
+  	</div>
+
+	<footer class="footer bg-dark">
+		<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-3">
+				<ul>
+				<h6>Enlaces Nacionales</h6>
+					<li><a href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx" target="_blank">MinSALUD</a></li>
+					<li><a href="https://coronaviruscolombia.gov.co/Covid19/index.html" target="_blank">Coronavirus Colombia</a></li>
+					<li><a href="https://www.ins.gov.co/Noticias/paginas/coronavirus.aspx" target="_blank">INSalud</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul>
+				<h6>Enlaces Internacionales</h6>
+					<li><a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses" target="_blank">OMS</a></li>
+					<li><a href="https://coronavirus.app/map" target="_blank">Coronavirus App</a></li>
+					<li><a href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963" target="_blank">Clinica Mayo</a></li>
+					<li><a href="https://www.un.org/es/coronavirus" target="_blank">Naciones Unidas</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-3">
+				<h6>Contacto</h6>
+				<p>Email: jeffersonandresap@ufps.edu.co</p>
+				<p>Cel 317 887 4766</p>
+			</div>
+		</div>
+			<p>2020 © All Rights Reserved. Desarrollado por JEFFERSON ANDRES ALVAREZ PALLARES</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+		$('#home').on('click', function(){
+			$('#contenedor').load('html/home.html');
+		});
+	</script>
+
+	<script type="text/javascript">
+		$('#casos').on('click', function(){
+			$('#contenedor').load('html/casos.html');
+		});
+	</script>
+</body>
+</html>

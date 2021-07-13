@@ -1,0 +1,23 @@
+body,html{
+	height: 100%;
+	background: white !important;
+}
+
+.logo{
+	color: black;
+	font-size: 50px;
+}
+
+.footer{
+	color: white;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: absolute;
+}
+
+
+ul, li{
+	list-style-type: none;
+	text-align: left;
+}
